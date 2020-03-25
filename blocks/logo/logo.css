@@ -1,0 +1,15 @@
+@import url('./_place_header/logo_place_header.css');
+
+.logo {
+  max-width: 176.58px;
+  height: 52px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width : 375px) {
+  .logo {
+    max-width: 142px;
+  }
+}

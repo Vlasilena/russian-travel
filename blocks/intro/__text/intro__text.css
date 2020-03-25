@@ -1,0 +1,12 @@
+@import url('./_span/intro__text_span.css');
+
+.intro__text {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-width: 383px;
+  font-weight: normal;
+  font-size: 0.8125rem;
+  line-height: 20px;
+  margin-top: 24px;
+}

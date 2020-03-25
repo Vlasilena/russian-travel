@@ -2,13 +2,15 @@
   font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
   background-color: #2a2c2f;
-  min-width: 1440px;
+  max-width: 1440px;
   color: #fff;
-  margin: auto;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
-@media (min-width : 1024px) {
-  .root {
-    min-width: 1024px;
-  }
+header,main,footer,div,section {
+  border: 1px solid red;
 }
+
+

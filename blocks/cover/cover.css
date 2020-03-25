@@ -1,0 +1,18 @@
+@import url('./__link/cover__link.css');
+@import url('./__bg/cover__bg.css');
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
+
+.cover {
+  max-width: 1184px;
+  min-height: 594px;
+  margin: 102px auto 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 343px 203px 48px;
+  background: #2a2c2f;
+}
+
+.cover:hover .cover__bg{
+  opacity: 0.3;
+}

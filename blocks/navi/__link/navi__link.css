@@ -1,0 +1,19 @@
+@import url('./_active/navi__link_active.css');
+
+.navi__link {
+  display: inline;
+  padding-right: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
+}
+
+.navi__link:last-of-type {
+  padding-right: 0;
+}
+
+.navi__link:hover {
+  text-decoration: underline;
+}

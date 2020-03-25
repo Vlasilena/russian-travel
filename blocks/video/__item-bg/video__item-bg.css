@@ -1,0 +1,8 @@
+.video__item-bg {
+  max-width: 100%;
+  min-height: 323px;
+  object-fit: cover;
+  border-radius: 5px;
+  grid-column: 1/2;
+  grid-row: 1/6;
+}

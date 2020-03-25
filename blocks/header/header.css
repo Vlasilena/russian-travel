@@ -1,16 +1,40 @@
+@import url('./__navi-link/header__navi-link.css');
+
 .header {
-  padding-top: 30px;
-  max-width: 82.2%;
-  min-height: 52px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  max-width: 1184px;
   margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@media screen and (max-width : 1024px) {
+@media (max-width : 1280px) {
   .header {
-    max-width: 90.6%;
-    min-height: 52px;
+    max-width: 1184px;
+  }
+}
+
+@media (max-width : 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media (max-width : 768px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+@media (max-width : 375px) {
+  .header {
+    max-width: 343px;
+  }
+}
+
+@media (max-width : 320px) {
+  .header {
+    max-width: 288px;
   }
 }

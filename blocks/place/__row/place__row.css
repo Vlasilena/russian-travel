@@ -1,0 +1,9 @@
+.place__row {
+  display: flex;
+  align-items: center;
+  margin: 0 0 60px;
+}
+
+.place__row:last-of-type {
+  margin-bottom: 0;
+}

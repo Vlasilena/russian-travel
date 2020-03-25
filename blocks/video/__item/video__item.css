@@ -1,0 +1,10 @@
+.video__item {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 71px 106px 85px 31px 30px;
+  background-color: #2a2c2f;
+}
+
+.video__item:hover .video__item-bg {
+  opacity: 0.5;
+}

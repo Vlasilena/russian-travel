@@ -1,0 +1,9 @@
+@import url('./__title/lead__title.css');
+@import url('./__subtitle/lead__subtitle.css');
+@import url('./__group/lead__group.css');
+@import url('./__image/lead__image.css');
+
+.lead {
+  max-width: 985px;
+  margin: 48px auto 0;
+}

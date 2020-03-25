@@ -1,0 +1,6 @@
+@import url('./__links/navi__links.css');
+@import url('./__link/navi__link.css');
+
+.navi {
+  margin: 0;
+}
