@@ -9,22 +9,22 @@
 <body>
   <div class="root">
     <header class="header">
-      <div class="logo logo__place_header"></div>
-      <nav class="page__nav">
-        <ul class="page__nav-links">
-          <li class="page__nav-link"><a href="#" class="nav-link lang-switch__link_active">Ru</a></li>
-          <li class="page__nav-link"><a href="#" class="nav-link">En</a></li>
+      <div class="logo logo_place_header"></div>
+      <nav class="navi">
+        <ul class="navi__links">
+          <li class="navi__link"><a href="#" class="navi__link navi__link_active">Ru</a></li>
+          <li class="navi__link"><a href="#" class="navi__link">En</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="content">
       <section class="lead">
-        <h1 class="lead__title">Путешествия по России</h1>
+        <h1 class="lead__title">Путешествия &nbsp;по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <div class="lead__group">
-          <div class="lead__image"><img src="./images/route.png" alt="Маршрут Путешествия по России" class="lead__route"></div>
-
+          <img src="./images/kalegin-michail-179870-unsplash.jpg" alt="Фото девушки в поезде" class="lead__image">
+          <img src="./images/route.png" alt="Маршрут Путешествия по России" class="lead__route lead__route_fit">
         </div>
         <p class="lead__caption">Ваша полка — верхняя</p>
       </section>
@@ -72,7 +72,7 @@
           </div>
           <div class="place__row">
             <img src="./images/places/kurshskaya-kosa.jpg" alt="Фото Куршская коса" class="place__image">
-            <div class="place__column">
+            <div class="paragraph__container">
               <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн,
                 вы сможете увидеть два водных горизонта —
                 спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
@@ -84,8 +84,6 @@
                 Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
             </div>
           </div>
-
-
         </div>
         <div class="place">
           <div class="place__row">
@@ -97,7 +95,7 @@
           </div>
         <div class="place__row">
           <img src="./images/places/kolskiy.jpg" alt="Фото Кольский полуостров" class="place__image">
-          <div class="place__column">
+          <div class="paragraph__container">
             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом.
               Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан,
               прикидывающийся Баренцевым морем.</p>
@@ -118,7 +116,7 @@
           </div>
           <div class="place__row">
             <img src="./images/places/altay.jpg" alt="Фото Алтай" class="place__image">
-            <div class="place__column">
+            <div class="paragraph__container">
             <p class="place__paragraph">Алтай — одно из красивейших мест в России.
               В первую очередь из-за гор: если ехать вдоль хребта,
               вы увидите склоны, усыпанные соснами, горные реки и озёра.
@@ -142,7 +140,7 @@
           </div>
           <div class="place__row">
             <img src="./images/places/zimniy-baykal.jpg" alt="Фото зимний Байкал>" class="place__image">
-            <div class="place__column">
+            <div class="paragraph__container">
               <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире.
                 Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
               <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу.
@@ -162,7 +160,7 @@
           </div>
           <div class="place__row">
             <img src="./images/places/kareliya.jpg" alt="Фото Карелия" class="place__image">
-            <div class="place__column">
+            <div class="paragraph__container">
               <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии:
                 образующая тайгу сибирская лиственница не растёт западнее Водлозера.
                 Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора.
@@ -175,27 +173,28 @@
       </section>
 
       <section class="video">
-        <h2 class="content-title">В глубины Земли и в дальний космос</h2>
+        <h2 class="content-title">В глубины Земли
+и в дальний космос</h2>
         <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
         <div class="video__container">
-          <div class="video__item">
-            <a href="https://player.vimeo.com/video/81106671" class="video-link">
-              <div class="video__item-bg video__item-bg_kamchatka"></div>
-
-            <img src="./images/icon_play.svg" class="video__icon_play" alt="Воспроизвести">
-                <p class="video__duration">6:30</p>
-                <h2 class="video__title">Colors of Kamchatka</h2>
-                <p class="video__subtitle">Director: Pavel Karykhalin</p></a>
-          </div>
-          <div class="video__item">
-            <a href="https://player.vimeo.com/video/290675450" class="video-link">
-              <div class="video__item-bg video__item-bg_oservatoriy"></div>
-
-            <img src="./images/icon_play.svg" class="video__icon_play" alt="Воспроизвести">
-            <p class="video__duration">24:45</p>
-            <h2 class="video__title">Обсерватория | Observatory</h2>
-            <p class="video__subtitle">Director: Alexander Khudokon</p>
-          </div></a>
+          <a href="https://player.vimeo.com/video/81106671" class="video__link">
+            <div class="video__item">
+              <img src="./images/colors-of-kamchatka.jpg" alt="Фото-ссылка на видео Colors of Kamchatka" class="video__item-bg">
+              <img src="./images/icon_play.svg" class="video__icon_play" alt="Воспроизвести">
+              <p class="video__duration">6:30</p>
+              <h2 class="video__title">Colors of Kamchatka</h2>
+              <p class="video__subtitle">Director: Pavel Karykhalin</p>
+            </div>
+          </a>
+          <a href="https://player.vimeo.com/video/290675450" class="video__link">
+            <div class="video__item">
+              <img src="./images/observatory.jpg" alt="Фото-ссылка на видео Обсерватория" class="video__item-bg">
+              <img src="./images/icon_play.svg" class="video__icon_play" alt="Воспроизвести">
+              <p class="video__duration">24:45</p>
+              <h2 class="video__title">Обсерватория | Observatory</h2>
+              <p class="video__subtitle">Director: Alexander Khudokon</p>
+            </div>
+          </a>
         </div>
       </section>
 
@@ -223,20 +222,20 @@
       </section>
 
       <section class="cover">
-        <div class="cover-bg"></div>
+        <img src="./images/do-baykala.jpg" alt="Фото железнодорожных путей с товарными составами" class="cover__bg">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
       </section>
     </main>
 
     <footer class="footer">
-      <nav class="page__nav">
-        <ul class="page__nav-links">
-          <li class="page__nav-link"><a href="#" class="nav-link">Карты</a></li>
-          <li class="page__nav-link"><a href="#" class="nav-link">Погода</a></li>
-          <li class="page__nav-link"><a href="#" class="nav-link">Расписание</a></li>
-          <li class="page__nav-link"><a href="#" class="nav-link">Календарь</a></li>
-          <li class="page__nav-link"><a href="#" class="nav-link">Путешествия</a></li>
+      <nav class="navi">
+        <ul class="navi__links">
+          <li class="navi__link"><a href="https://yandex.ru/maps/" class="navi__link">Карты</a></li>
+          <li class="navi__link"><a href="https://yandex.ru/pogoda/" class="navi__link">Погода</a></li>
+          <li class="navi__link"><a href="https://rasp.yandex.ru/" class="navi__link">Расписание</a></li>
+          <li class="navi__link"><a href="https://calendar.yandex.ru/" class="navi__link">Календарь</a></li>
+          <li class="navi__link"><a href="https://travel.yandex.ru" class="navi__link">Путешествия</a></li>
         </ul>
       </nav>
       <p class="footer__copyright">&copy; 2020 Елена Парчевская</p>
