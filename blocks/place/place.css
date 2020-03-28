@@ -7,12 +7,25 @@
 @import url('./__paragraph/place__paragraph.css');
 
 .place {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 72px;
 }
 
 .place:last-of-type {
   margin-bottom: 0;
+}
+
+@media screen and (max-width : 375px) {
+  .place {
+    margin-bottom: 48px;
+  }
 }

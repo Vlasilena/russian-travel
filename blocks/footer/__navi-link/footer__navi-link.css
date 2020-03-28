@@ -1,0 +1,9 @@
+@media screen and (max-width : 375px) {
+  .footer__navi-link {
+    margin-bottom: 32px;
+  }
+
+  .footer__navi-link:last-of-type {
+    margin-bottom: 0;
+  }
+}

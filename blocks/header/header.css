@@ -1,39 +1,44 @@
-@import url('./__navi-link/header__navi-link.css');
+@import url('./__link/header__link.css');
 
 .header {
   max-width: 1184px;
   margin: 0 auto;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-@media (max-width : 1280px) {
+@media screen and (max-width : 1280px) {
   .header {
     max-width: 1184px;
   }
 }
 
-@media (max-width : 1024px) {
+@media screen and (max-width : 1024px) {
   .header {
     max-width: 928px;
   }
 }
 
-@media (max-width : 768px) {
+@media screen and (max-width : 768px) {
   .header {
     max-width: 720px;
   }
 }
 
-@media (max-width : 375px) {
+@media screen and (max-width : 375px) {
   .header {
     max-width: 343px;
   }
 }
 
-@media (max-width : 320px) {
+@media screen and (max-width : 320px) {
   .header {
     max-width: 288px;
   }

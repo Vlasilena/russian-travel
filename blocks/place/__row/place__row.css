@@ -1,9 +1,42 @@
 .place__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 0 60px;
 }
 
 .place__row:last-of-type {
   margin-bottom: 0;
+}
+
+@media screen and (max-width : 1024px) {
+  .place__row {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .place__row {
+    margin-bottom: 51px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .place__row {
+    max-width: 375px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 32px;
+  }
 }

@@ -5,14 +5,40 @@
 
 .cover {
   max-width: 1184px;
-  min-height: 594px;
   margin: 102px auto 0;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 343px 203px 48px;
-  background: #2a2c2f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #2a2c2f;
 }
 
-.cover:hover .cover__bg{
-  opacity: 0.3;
+@media screen and (max-width : 1024px) {
+  .cover {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .cover {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .cover {
+    max-width: 375px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .cover {
+    max-width: 320px;
+  }
 }

@@ -2,7 +2,23 @@
   margin: 48px auto 0;
   max-width: 583px;
   text-align: center;
+  font-style: normal;
   font-weight: 100;
   font-size: 30px;
   line-height: 36px;
+}
+
+@media screen and (max-width : 1024px) {
+  .lead__subtitle {
+    max-width: 635px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .lead__subtitle {
+    margin-top: 8px;
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 23px;
+  }
 }

@@ -1,10 +1,54 @@
+@import url('./__navi-links/footer__navi-links.css');
+@import url('./__navi-link/footer__navi-link.css');
+@import url('./__link/footer__link.css');
 @import url('./__copyright/footer__copyright.css');
 
 .footer {
   max-width: 1184px;
   margin: 160px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width : 1024px) {
+  .footer {
+    max-width: 929px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .footer {
+    margin-top: 102px;
+    max-width: 722px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .footer {
+    max-width: 343px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .footer {
+    max-width: 288px;
+  }
 }

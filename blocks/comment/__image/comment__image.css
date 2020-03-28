@@ -1,9 +1,29 @@
 .comment__image {
-  width: 97px;
-  height: 97px;
-  object-fit: cover;
-  object-position: top;
-  box-sizing: border-box;
+  max-width: 97px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 50%;
   margin-bottom: 42px;
+}
+
+@media screen and (max-width : 768px) {
+  .comment__image {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .comment__image {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    max-width: 96px;
+  }
 }

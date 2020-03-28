@@ -2,3 +2,27 @@
   margin: 102px auto 0;
   max-width: 1184px;
 }
+
+@media screen and (max-width : 1024px) {
+  .comments {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .comments {
+    max-width: 660px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .comments {
+    max-width: 343px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .comments {
+    max-width: 288px;
+  }
+}

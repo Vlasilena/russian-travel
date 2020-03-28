@@ -4,5 +4,34 @@
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 65px;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+@media screen and (max-width : 768px) {
+  .place__title{
+    max-width: 340px;
+    margin-right: 28px;
+    font-size: 42px;
+    line-height: 46px;
+    white-space: pre-wrap;
+  }
+}
+
+
+
+@media screen and (max-width : 375px) {
+  .place__title {
+    max-width: 343px;
+    margin-right: 0;
+    font-size: 32px;
+    line-height: 35px;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .place__title {
+    max-width: 288px;
+  }
 }

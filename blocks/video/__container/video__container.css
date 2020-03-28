@@ -1,7 +1,42 @@
 .video__container {
   margin-top: 72px;
   display: grid;
-  width: 100%;
+  max-width: 1184px;
+  height: 323px;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 18px;
+}
+
+@media screen and (max-width : 1024px) {
+  .video__container {
+    grid-gap: 16px;
+    max-width: 928px;
+    height: 323px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .video__container {
+    margin-top: 56px;
+    max-width: 720px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .video__container {
+    margin-top: 24px;
+    max-width: 343px;
+    height: 408px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 8px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .video__container {
+    max-width: 288px;
+    height: 392px;
+  }
 }

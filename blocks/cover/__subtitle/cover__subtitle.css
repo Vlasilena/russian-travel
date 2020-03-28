@@ -5,7 +5,34 @@
   font-size: 18px;
   line-height: 26px;
   text-align: center;
-  grid-column: 1/2;
-  grid-row: 2/3;
-  z-index: 2;
+}
+
+@media screen and (max-width : 1024px) {
+  .cover__subtitle {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .cover__subtitle {
+    margin-top: 67px;
+    max-width: 354px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .cover__subtitle {
+    margin-top: 20px;
+    max-width: 343px;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: pre-wrap;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .cover__subtitle {
+    margin-top: 13px;
+    max-width: 288px;
+  }
 }

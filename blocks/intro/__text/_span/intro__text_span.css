@@ -3,3 +3,10 @@
   font-size: 0.8125rem;
   line-height: 20px;
 }
+
+@media screen and (max-width : 375px) {
+  .intro__text_span {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}

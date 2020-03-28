@@ -7,3 +7,31 @@
   line-height: 78px;
   white-space: pre-wrap;
 }
+
+@media screen and (max-width : 1024px) {
+  .content-title {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .content-title {
+    max-width: 720px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .content-title {
+    max-width: 343px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .content-title {
+    max-width: 288px;
+  }
+}

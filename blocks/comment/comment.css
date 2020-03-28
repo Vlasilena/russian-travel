@@ -3,5 +3,45 @@
 @import url('./__author/comment__author.css');
 
 .comment {
+  margin: 0 auto;
   max-width: 382px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+}
+
+@media screen and (max-width : 1024px) {
+  .comment {
+    max-width: 296px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .comment {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 382px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .comment {
+    max-width: 343px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .comment {
+    max-width: 288px;
+  }
 }

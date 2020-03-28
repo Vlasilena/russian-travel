@@ -1,10 +1,36 @@
 .video__item {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 71px 106px 85px 31px 30px;
-  background-color: #2a2c2f;
+  max-width: 583px;
+  height: 323px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
-.video__item:hover .video__item-bg {
-  opacity: 0.5;
+
+@media screen and (max-width : 1024px) {
+  .video__item {
+    max-width: 456px;
+    height: 288px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .video__item {
+    max-width: 352px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .video__item {
+    max-width: 343px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .video__item {
+    max-width: 288px;
+    height: 192px;
+  }
 }

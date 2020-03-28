@@ -4,10 +4,36 @@
 @import url('./__item-bg/video__item-bg.css');
 @import url('./__icon_play/video__icon_play.css');
 @import url('./__duration/video__duration.css');
+@import url('./__place/video__place.css');
 @import url('./__title/video__title.css');
 @import url('./__subtitle/video__subtitle.css');
 
 .video {
-  margin: 96px auto 0;
+  margin: 102px auto 0;
   max-width: 1184px;
+}
+
+@media screen and (max-width : 1024px) {
+  .video {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .video {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .video {
+    margin-top: 64px;
+    max-width: 343px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .video {
+    max-width: 288px;
+  }
 }

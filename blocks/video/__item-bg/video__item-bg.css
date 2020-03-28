@@ -1,8 +1,10 @@
+@import url('./_kamchatka/video__item-bg_kamchatka.css');
+@import url('./_observatory/video__item-bg_observatory.css');
+
 .video__item-bg {
-  max-width: 100%;
-  min-height: 323px;
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 5px;
-  grid-column: 1/2;
-  grid-row: 1/6;
+
 }
