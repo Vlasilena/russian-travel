@@ -13,27 +13,22 @@
   max-width: 1184px;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1200px) {
   .video {
-    max-width: 928px;
+    width: calc(100% - 96px);
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .video {
-    max-width: 720px;
+    width: calc(100% - 48px);
   }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .video {
     margin-top: 64px;
-    max-width: 343px;
+    width: calc(100% - 32px);
   }
 }
 
-@media screen and (max-width : 320px) {
-  .video {
-    max-width: 288px;
-  }
-}

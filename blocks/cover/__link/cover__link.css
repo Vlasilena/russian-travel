@@ -1,4 +1,7 @@
 .cover__link {
   color: #fff;
   text-decoration: none;
+  size: 0;
+  margin: 0;
+  padding: 0;
 }

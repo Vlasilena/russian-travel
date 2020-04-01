@@ -10,7 +10,7 @@
   margin-bottom: 42px;
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .comment__image {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width : 321px) {
   .comment__image {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;

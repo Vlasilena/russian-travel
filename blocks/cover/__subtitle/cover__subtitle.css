@@ -7,20 +7,20 @@
   text-align: center;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1200px) {
   .cover__subtitle {
     margin-top: 90px;
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .cover__subtitle {
     margin-top: 67px;
     max-width: 354px;
   }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .cover__subtitle {
     margin-top: 20px;
     max-width: 343px;
@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width : 321px) {
   .cover__subtitle {
     margin-top: 13px;
     max-width: 288px;

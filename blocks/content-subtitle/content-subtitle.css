@@ -7,13 +7,13 @@
   text-align: center;
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .content-subtitle {
     margin-top: 24px;
   }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .content-subtitle {
     margin-top: 16px;
     max-width: 343px;
@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width : 321px) {
   .content-subtitle {
     max-width: 288px;
   }

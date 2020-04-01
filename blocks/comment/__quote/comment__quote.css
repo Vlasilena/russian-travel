@@ -5,7 +5,7 @@
   margin: 0 0 24px 0;
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .comment__quote {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
@@ -13,5 +13,6 @@
     margin-bottom: 0;
     font-size: 16px;
     line-height: 23px;
+    margin-top: 24px;
   }
 }

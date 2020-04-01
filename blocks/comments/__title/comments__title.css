@@ -1,0 +1,11 @@
+@media screen and (max-width : 900px) {
+  .comments__title {
+    width: calc(100% - 204px);
+  }
+}
+
+@media screen and (max-width : 600px) {
+  .comments__title {
+    width: calc(100% - 32px);
+  }
+}

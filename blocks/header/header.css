@@ -1,7 +1,7 @@
 @import url('./__link/header__link.css');
 
 .header {
-  max-width: 1184px;
+  width: 82.2%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14,32 +14,26 @@
           justify-content: space-between;
 }
 
-@media screen and (max-width : 1280px) {
+@media screen and (max-width : 1200px) {
   .header {
-    max-width: 1184px;
+    width: 90.6%;
   }
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 900px) {
   .header {
-    max-width: 928px;
+    width: 93.8%;
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 600px) {
   .header {
-    max-width: 720px;
+    width: 91.5%;
   }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 321px) {
   .header {
-    max-width: 343px;
-  }
-}
-
-@media screen and (max-width : 320px) {
-  .header {
-    max-width: 288px;
+    width: 90%;
   }
 }

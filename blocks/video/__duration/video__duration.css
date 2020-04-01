@@ -9,26 +9,26 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1200px) {
   .video__duration {
     margin-top: 54px;
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .video__duration {
     margin-left: 24px;
     margin-top: 36.29px;
   }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .video__duration {
     margin-top: 41px;
   }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width : 321px) {
   .video__duration {
     margin-left: 16px;
     margin-top: 49px;

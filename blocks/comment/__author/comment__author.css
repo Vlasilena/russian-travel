@@ -5,27 +5,17 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width : 1280px) {
-  .comment__author {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-    line-height: 22px;
-  }
-}
-
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .comment__author {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
     margin-top: 16px;
-    line-height: 24px;
     text-align: center;
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 321px) {
   .comment__author {
     margin-top: 17px;
   }

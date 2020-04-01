@@ -3,28 +3,22 @@
   max-width: 984px;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1200px) {
   .places {
     margin-top: 102px;
-    max-width: 928px;
+    width: calc(100% - 96px);
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .places {
-    max-width: 720px;
+    width: calc(100% - 48px);
   }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .places {
     margin-top: 64px;
-    max-width: 375px;
-  }
-}
-
-@media screen and (max-width : 320px) {
-  .places {
-    max-width: 320px;
+    width: 100%;
   }
 }

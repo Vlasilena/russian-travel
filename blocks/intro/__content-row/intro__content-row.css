@@ -6,29 +6,22 @@
   margin-top: 48px;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1200px) {
   .intro__content-row {
     max-width: 692px;
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .intro__content-row {
-    max-width: 720px;
+    width: 100%;
   }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .intro__content-row {
     margin-top: 32px;
-    max-width: 343px;
     font-size: 16px;
     line-height: 27px;
-  }
-}
-
-@media screen and (max-width : 320px) {
-  .intro__content-row {
-    max-width: 288px;
   }
 }

@@ -4,7 +4,7 @@
   line-height: 20px;
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .intro__text_span {
     font-size: 12px;
     line-height: 19px;

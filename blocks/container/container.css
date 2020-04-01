@@ -1,5 +1,6 @@
 .container {
   margin: 72px auto 0;
+  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 19px 1fr 19px 1fr;
@@ -7,9 +8,8 @@
   grid-gap: 19px;
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .container {
-    max-width: 382px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 48px 1fr 48px 1fr;
@@ -30,16 +30,14 @@
   }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .container {
-    max-width: 343px;
     margin-top: 48px;
   }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width : 321px) {
   .container {
-    max-width: 288px;
     margin-top: 40px;
   }
 }

@@ -10,25 +10,25 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1200px) {
   .lead__caption{
     margin-top: 16px;
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .lead__caption{
     margin-left: 24px;
   }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .lead__caption{
     margin-top: 10px;
   }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width : 321px) {
   .lead__caption{
     margin-top: 8px;
   }

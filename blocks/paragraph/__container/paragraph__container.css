@@ -1,5 +1,5 @@
 .paragraph__container {
-  max-width: 484px;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,29 +11,14 @@
       align-self: flex-start;
 }
 
-@media screen and (max-width : 1024px) {
-  .paragraph__container {
-    max-width: 456px;
-  }
-}
 
-@media screen and (max-width : 768px) {
-  .paragraph__container {
-    max-width: 352px;
-  }
-}
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .paragraph__container {
-    max-width: 343px;
+    margin-top: 24px;
+    width: calc(100% - 32px);
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-  }
-}
-
-@media screen and (max-width : 320px) {
-  .paragraph__container {
-    max-width: 288px;
   }
 }

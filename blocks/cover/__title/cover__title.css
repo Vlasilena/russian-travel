@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1200px) {
   .cover__title {
     margin-top: 211px;
     max-width: 946.4px;
@@ -15,14 +15,14 @@
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .cover__title {
     margin-top: 165px;
     max-width: 720px;
   }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .cover__title {
     margin-top: 104px;
     max-width: 343px;
@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width : 321px) {
   .cover__title {
     margin-top: 64px;
     max-width: 288px;
