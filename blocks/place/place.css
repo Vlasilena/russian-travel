@@ -5,18 +5,14 @@
 @import url('./__url/place__url.css');
 @import url('./__image/place__image.css');
 @import url('./__paragraph/place__paragraph.css');
+@import url('./__wsp/place__wsp.css');
+@import url('./__pk/place__pk.css');
 
 .place {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 60px 40px;
   margin-bottom: 72px;
 }
 
@@ -24,8 +20,18 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .place {
     margin-bottom: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+      -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+         -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+          justify-content: space-between;
   }
 }

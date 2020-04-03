@@ -1,14 +1,11 @@
-@import url('./_place_header/logo_place_header.css');
-
 .logo {
   max-width: 176.58px;
   height: 52px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  object-fit: contain;
+  object-position: center;
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .logo {
     max-width: 142px;
     height: 42px;

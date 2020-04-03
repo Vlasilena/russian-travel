@@ -23,3 +23,15 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width : 600px) {
+  .cover {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width : 321px) {
+  .cover {
+    margin-top: 64px;
+  }
+}

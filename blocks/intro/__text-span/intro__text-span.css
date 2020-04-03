@@ -1,11 +1,11 @@
-.intro__text_span {
+.intro__text-span {
   font-weight: bold;
   font-size: 0.8125rem;
   line-height: 20px;
 }
 
 @media screen and (max-width : 600px) {
-  .intro__text_span {
+  .intro__text-span {
     font-size: 12px;
     line-height: 19px;
   }

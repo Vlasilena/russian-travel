@@ -2,6 +2,23 @@
   background-image: url('../../../../images/colors-of-kamchatka.png');
   width: 100%;
   margin: 0;
+  background-image: -webkit-gradient(
+          linear,
+          left top, left bottom,
+          from(rgba(0, 0, 0, 0.5)),
+          to(rgba(0, 0, 0, 0.5))
+        ),
+        url('../../../../images/colors-of-kamchatka.png');
+  background-image: -o-linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url('../../../../images/colors-of-kamchatka.png');
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url('../../../../images/colors-of-kamchatka.png')
 }
 
 .video__item-bg_kamchatka:hover {
@@ -32,25 +49,7 @@
 
 @media screen and (max-width : 600px) {
   .video__item-bg_kamchatka {
-    background-image: -webkit-gradient(
-          linear,
-          left top, left bottom,
-          from(rgba(0, 0, 0, 0.5)),
-          to(rgba(0, 0, 0, 0.5))
-        ),
-        url('../../../../images/colors-of-kamchatka.png');
-  background-image: -o-linear-gradient(
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)
-        ),
-        url('../../../../images/colors-of-kamchatka.png');
-  background-image: linear-gradient(
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)
-        ),
-        url('../../../../images/colors-of-kamchatka.png');
-
-        height: 100%;
+    height: 100%;
   }
 
 }

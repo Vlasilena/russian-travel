@@ -1,5 +1,6 @@
 .place__website {
-  width: 50%;
+  width: auto;
+  height: auto;
   list-style-type: none;
   padding: 0;
   margin: 0;

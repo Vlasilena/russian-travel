@@ -1,0 +1,6 @@
+@media screen and (max-width : 600px) {
+  .place__pk {
+    margin: 24px auto 0;
+    width: calc(100% - 32px);
+  }
+}

@@ -2,35 +2,22 @@
   font-family: 'Inter', Arial, sans-serif;
   font-size: 16px;
   background-color: #2a2c2f;
-  max-width: 100%;
+  width: 100%;
   color: #fff;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 48px;
 }
 
-@media screen and (max-width : 1024px) {
-  .root {
-    max-width: 1024px;
-  }
-}
-
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 900px) {
   .root {
     padding-bottom: 24px;
-    max-width: 768px;
   }
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 600px) {
   .root {
     padding-top: 16px;
-    max-width: 375px;
   }
 }
 
-@media screen and (max-width : 320px) {
-  .root {
-    max-width: 320px;
-  }
-}

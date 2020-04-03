@@ -1,31 +1,18 @@
-@import url('./_kurshskaya-kosa/place__image_kurshskaya-kosa.css');
-@import url('./_kolskiy/place__image_kolskiy.css');
-@import url('./_altay/place__image_altay.css');
-@import url('./_zimniy-baykal/place__image_zimniy-baykal.css');
-@import url('./_kareliya/place__image_kareliya.css');
-
-
 .place__image {
-  width: 50%;
+  width: 100%;
   height: 460px;
-  margin-right: 40px;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: top;
 }
 
 @media screen and (max-width : 1200px) {
   .place__image {
-
     height: 440px;
   }
 }
 
 @media screen and (max-width : 900px) {
   .place__image {
-
     height: 340px;
   }
 }
@@ -34,13 +21,12 @@
   .place__image {
     width: 100%;
     height: 375px;
-    margin-right: 0;
+    margin: 32px auto 0;
   }
 }
 
 @media screen and (max-width : 321px) {
   .place__image {
-    /* max-width: 320px; */
     height: 320px;
   }
 }

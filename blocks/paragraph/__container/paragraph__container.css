@@ -1,5 +1,6 @@
 .paragraph__container {
-  width: 50%;
+  width: auto;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,12 +12,10 @@
       align-self: flex-start;
 }
 
-
-
 @media screen and (max-width : 600px) {
   .paragraph__container {
-    margin-top: 24px;
-    width: calc(100% - 32px);
+    margin: 24px auto 0;
+        width: calc(100% - 32px);
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
