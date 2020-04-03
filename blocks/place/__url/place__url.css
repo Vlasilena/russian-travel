@@ -9,5 +9,5 @@
 
 .place__url:hover {
   color: #aaa;
-  transition: color 0.5s ease-out 0.3s;
+  transition: color 0.5s ease-out;
 }

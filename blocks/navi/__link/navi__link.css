@@ -6,3 +6,13 @@
 .navi__link:last-of-type {
   padding-right: 0;
 }
+
+@media screen and (max-width : 760px) {
+  .navi__link {
+    margin-bottom: 32px;
+  }
+
+  .navi__link:last-of-type {
+    margin-bottom: 0;
+  }
+}
